@@ -42,3 +42,8 @@
 .sidebar-item:hover {
     background-color: rgb(240, 240, 255);
 }
+
+.sidebar-link {
+    text-decoration: none;
+    color: #121212;
+}
