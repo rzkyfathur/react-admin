@@ -1,4 +1,5 @@
 import Avatar from "./avatar.jpg"
+import Img from "./img.jpg"
 
 export const userData = [{
         name: 'Jan',
@@ -45,11 +46,25 @@ export const userData = [{
         "Active User": 7000,
     },
 ];
+export const productData = [{
+        name: 'Jan',
+        "Sales": 10000,
+    },
+    {
+        name: 'Feb',
+        "Sales": 8000,
+    },
+    {
+        name: 'Mar',
+        "Sales": 7000,
+    },
+
+];
 
 
 export const userRows = [{
         id: 1,
-        username: "Cuo",
+        username: "Cuo handsome",
         avatar: Avatar,
         email: "Cuo@gmail.com",
         status: "active",
@@ -57,7 +72,7 @@ export const userRows = [{
     },
     {
         id: 2,
-        username: "Cuo",
+        username: "Cuo handsome",
         avatar: Avatar,
         email: "Cuo@gmail.com",
         status: "active",
@@ -65,7 +80,7 @@ export const userRows = [{
     },
     {
         id: 3,
-        username: "Cuo",
+        username: "Cuo handsome",
         avatar: Avatar,
         email: "Cuo@gmail.com",
         status: "active",
@@ -73,7 +88,7 @@ export const userRows = [{
     },
     {
         id: 4,
-        username: "Cuo",
+        username: "Cuo handsome",
         avatar: Avatar,
         email: "Cuo@gmail.com",
         status: "active",
@@ -81,7 +96,7 @@ export const userRows = [{
     },
     {
         id: 5,
-        username: "Cuo",
+        username: "Cuo handsome",
         avatar: Avatar,
         email: "Cuo@gmail.com",
         status: "active",
@@ -89,7 +104,7 @@ export const userRows = [{
     },
     {
         id: 6,
-        username: "Cuo",
+        username: "Cuo handsome",
         avatar: Avatar,
         email: "Cuo@gmail.com",
         status: "active",
@@ -97,7 +112,7 @@ export const userRows = [{
     },
     {
         id: 7,
-        username: "Cuo",
+        username: "Cuo handsome",
         avatar: Avatar,
         email: "Cuo@gmail.com",
         status: "active",
@@ -105,7 +120,7 @@ export const userRows = [{
     },
     {
         id: 8,
-        username: "Cuo",
+        username: "Cuo handsome",
         avatar: Avatar,
         email: "Cuo@gmail.com",
         status: "active",
@@ -113,7 +128,7 @@ export const userRows = [{
     },
     {
         id: 9,
-        username: "Cuo",
+        username: "Cuo handsome",
         avatar: Avatar,
         email: "Cuo@gmail.com",
         status: "active",
@@ -121,11 +136,93 @@ export const userRows = [{
     },
     {
         id: 10,
-        username: "Cuo",
+        username: "Cuo handsome",
         avatar: Avatar,
         email: "Cuo@gmail.com",
         status: "active",
         transaction: "$120.00"
+    },
+
+];
+export const productRows = [{
+        id: 1,
+        name: "Samsung Galaxy Buds",
+        avatar: Img,
+        stock: 100,
+        status: "active",
+        price: "$120.00"
+    },
+    {
+        id: 2,
+        name: "Samsung Galaxy Buds",
+        avatar: Img,
+        stock: 100,
+        status: "active",
+        price: "$120.00"
+    },
+    {
+        id: 3,
+        name: "Samsung Galaxy Buds",
+        avatar: Img,
+        stock: 100,
+        status: "active",
+        price: "$120.00"
+    },
+    {
+        id: 4,
+        name: "Samsung Galaxy Buds",
+        avatar: Img,
+        stock: 100,
+        status: "active",
+        price: "$120.00"
+    },
+    {
+        id: 5,
+        name: "Samsung Galaxy Buds",
+        avatar: Img,
+        stock: 100,
+        status: "active",
+        price: "$120.00"
+    },
+    {
+        id: 6,
+        name: "Samsung Galaxy Buds",
+        avatar: Img,
+        stock: 100,
+        status: "active",
+        price: "$120.00"
+    },
+    {
+        id: 7,
+        name: "Samsung Galaxy Buds",
+        avatar: Img,
+        stock: 100,
+        status: "active",
+        price: "$120.00"
+    },
+    {
+        id: 8,
+        name: "Samsung Galaxy Buds",
+        avatar: Img,
+        stock: 100,
+        status: "active",
+        price: "$120.00"
+    },
+    {
+        id: 9,
+        name: "Samsung Galaxy Buds",
+        avatar: Img,
+        stock: 100,
+        status: "active",
+        price: "$120.00"
+    },
+    {
+        id: 10,
+        name: "Samsung Galaxy Buds",
+        img: Img,
+        stock: 100,
+        status: "active",
+        price: "$120.00"
     },
 
 ];
