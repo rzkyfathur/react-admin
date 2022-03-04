@@ -1,0 +1,58 @@
+.widget-lg {
+    flex: 2;
+    padding: 20px;
+    box-shadow: 2px 3px 16px -5px rgba(201, 201, 201, 0.75);
+    -webkit-box-shadow: 2px 3px 16px -5px rgba(201, 201, 201, 0.75);
+    -moz-box-shadow: 2px 3px 16px -5px rgba(201, 201, 201, 0.75);
+}
+
+.widget-lg-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.widget-lg-table {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.widget-lg-tr {
+    text-align: left;
+}
+
+.widget-lg-tr-image {
+    display: flex;
+    align-items: center;
+}
+
+.widget-lg-avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.widget-lg-td {
+    color: gray;
+}
+
+.button {
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.widget-button-approved {
+    background-color: rgb(246, 255, 246);
+    color: rgb(108, 175, 108);
+}
+
+.widget-button-pending {
+    background-color: rgb(255, 242, 242);
+    color: rgb(218, 144, 144);
+}
+
+.widget-button-declined {
+    background-color: rgb(242, 242, 255);
+    color: rgb(128, 128, 182);
+}
