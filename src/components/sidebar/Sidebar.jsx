@@ -11,16 +11,18 @@ export default function Sidebar() {
                 <div className="sidebar-menu">
                     <h3 className="sidebar-title">Dashboard</h3>
                     <ul className="sidebar-list">
-                        <li className="sidebar-item active">
-                            <LineStyle className="sidebar-icon"/>
-                            Home
-                        </li>
+                        <Link to="/" className="sidebar-link">
+                            <li className="sidebar-item active">
+                                <LineStyle className="sidebar-icon"/>
+                                Home
+                            </li>
+                        </Link>
                         <li className="sidebar-item">
                             <Timeline className="sidebar-icon"/>
                             Analytics
                         </li>
                         <li className="sidebar-item">
-                           <TrendingUp className="sidebar-icon"/>
+                            <TrendingUp className="sidebar-icon"/>
                             Sales
                         </li>
                     </ul>
