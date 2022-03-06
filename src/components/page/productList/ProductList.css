@@ -1,0 +1,35 @@
+.product-list {
+    flex: 4;
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    align-items: center;
+}
+
+.product-list-image {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.product-list-edit {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: yellow;
+    margin-right: 10px;
+}
+
+.product-list-edit:hover {
+    background-color: rgb(182, 182, 0);
+}
+
+.product-list-delete:hover {
+    color: red;
+    cursor: pointer;
+}
