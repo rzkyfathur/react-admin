@@ -19,6 +19,10 @@
     font-size: 16px;
 }
 
+.button-add-user:hover {
+    background-color: rgb(174, 104, 240);
+}
+
 .user-container {
     display: flex;
     margin-top: 20px;
@@ -145,12 +149,12 @@
     border-radius: 5px;
     background-color: transparent;
     border: 1px solid rgb(201, 151, 247);
-    padding: 8px 8px;
+    padding: 10px 8px;
     font-weight: 600;
     cursor: pointer;
 }
 
 .user-update-button:hover {
-    background-color: rgb(201, 151, 247);
+    background-color: rgb(174, 104, 240);
     color: white;
 }
