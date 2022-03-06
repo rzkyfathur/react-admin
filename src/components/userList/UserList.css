@@ -24,6 +24,10 @@
     margin-right: 10px;
 }
 
+.user-list-edit:hover {
+    background-color: rgb(182, 182, 0);
+}
+
 .user-list-delete:hover {
     color: red;
     cursor: pointer;
